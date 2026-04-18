@@ -10,11 +10,11 @@ export const useAudio = () => {
   }, []);
 
   const playSingleDing = useCallback(() => {
-    playSound('/sounds/RIGHT.mp3');
+    playSound('sounds/RIGHT.mp3');
   }, [playSound]);
 
   const playWrongSound = useCallback(() => {
-    playSound('/sounds/WRONG.mp3');
+    playSound('sounds/WRONG.mp3');
   }, [playSound]);
 
   return {
