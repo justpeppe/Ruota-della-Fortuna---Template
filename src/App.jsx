@@ -4,6 +4,7 @@ import LandingPage from './views/LandingPage';
 import QuizSelection from './views/QuizSelection';
 import RulesView from './views/RulesView';
 import GameScreen from './views/GameScreen';
+import GlobalFullscreenButton from './components/layout/GlobalFullscreenButton';
 
 /**
  * Componente principale dell'applicazione.
@@ -13,6 +14,7 @@ function App() {
   return (
     <HashRouter>
       <div className="app-shell">
+        <GlobalFullscreenButton />
         <Routes>
           {/* Landing Page */}
           <Route path="/" element={<LandingPage />} />
