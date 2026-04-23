@@ -1,12 +1,10 @@
 export const quizzes = [
-  { id: 1, hint: "ORA LA PUOI DIRE", phrase: "LA DATA DEGLI ESAMI UNIVERSITARI" },
-  { id: 3, hint: "STEWIE GRIFFIN", phrase: "TESTA ADATTA PER GIOCARE A RUGBY" },
-  { id: 4, hint: "MAP", phrase: "SQUADRA SPECIALE CHE ESPLORA POSTI ABBANDONATI" },
-  { id: 5, hint: "TENNIS", phrase: "LO SPORT DI CUI SEI MAESTRO" },
-  { id: 6, hint: "GRANA PADANO", phrase: "UOMO SEPOLTO DAL SUO STESSO FORMAGGIO" },
-  { id: 7, hint: "BOSCO DI MALABOTTA", phrase: "LA PASSEGGIATA PIU' LUNGA DEL PREVISTO" },
-  { id: 8, hint: "UN CELEBRE ROMANZO DI J.K. ROWLING", phrase: "HARRY POTTER E LA PIETRA FILOSOFALE" },
-  { id: 9, hint: "ORA LA PUOI DIRE", phrase: "LA DATA DEGLI ESAMI UNIVERSITARI" },
+  { id: 1, hint: "STEWIE GRIFFIN", phrase: "TESTA ADATTA PER GIOCARE A RUGBY" },
+  { id: 2, hint: "TENNIS", phrase: "LO SPORT DI CUI SEI MAESTRO" },
+  { id: 3, hint: "GRANA PADANO", phrase: "UOMO SEPOLTO DAL SUO STESSO FORMAGGIO" },
+  { id: 4, hint: "BOSCO DI MALABOTTA", phrase: "LA PASSEGGIATA PIU' LUNGA DEL PREVISTO" },
+  { id: 5, hint: "INTONACO", phrase: "A MALTA E’ CADUTO AI TUOI PIEDI" },
+  { id: 6, hint: "ORA LA PUOI DIRE", phrase: "LA DATA DEGLI ESAMI UNIVERSITARI" },
 ];
 
 export const uiCopy = {
