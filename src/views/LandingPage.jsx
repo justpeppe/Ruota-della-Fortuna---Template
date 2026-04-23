@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion as Motion } from 'framer-motion';
 import { uiCopy } from '../data/quizzes';
+import GlobalFullscreenButton from '../components/layout/GlobalFullscreenButton';
 
 /**
  * Landing Page — schermata d'ingresso.
@@ -11,6 +12,7 @@ import { uiCopy } from '../data/quizzes';
 const LandingPage = () => {
   return (
     <div className="landing-page">
+      <GlobalFullscreenButton />
 
       {/* ── Contenuto ── */}
       <div className="hero">

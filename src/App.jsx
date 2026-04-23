@@ -4,7 +4,6 @@ import LandingPage from './views/LandingPage';
 import QuizSelection from './views/QuizSelection';
 import RulesView from './views/RulesView';
 import GameScreen from './views/GameScreen';
-import GlobalFullscreenButton from './components/layout/GlobalFullscreenButton';
 import CosmicBg from './components/layout/CosmicBg';
 
 /**
@@ -16,7 +15,6 @@ function App() {
     <HashRouter>
       <div className="app-shell">
         <CosmicBg />
-        <GlobalFullscreenButton />
         <Routes>
           {/* Landing Page */}
           <Route path="/" element={<LandingPage />} />
